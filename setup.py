@@ -6,7 +6,7 @@ with open('README.md', 'r') as fh:
 
 setup(
     name='ingreedypy',
-    py_modules=['ingreedypy'],
+    py_modules=['ingreedypy', 'cronoparse'],
     version='1.3.5',
     description='ingreedy-py parses recipe ingredient lines into a object',
     long_description=long_description,
