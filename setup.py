@@ -16,7 +16,8 @@ setup(
     url='https://github.com/openculinary/ingreedy-py',
     keywords=['ingreedy', 'ingreedypy', 'recipe', 'parser'],
     install_requires=[
-        'parsimonious'
+        'parsimonious',
+        'nltk'
     ],
     extras_require={
         'tests': [
