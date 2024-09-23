@@ -10,7 +10,7 @@ if logging.getLogger().hasHandlers():
     logging.getLogger().setLevel(logging.INFO)
 
 pos_ignore_list = {"''", "(", ")", "--", ".", ":", "``", "SYM", "$"}
-
+# test push
 
 def add_search_words(parsed_object, description):
 
